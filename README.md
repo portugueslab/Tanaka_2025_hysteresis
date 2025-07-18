@@ -1,2 +1,2 @@
-# Tanaka_2025_hysteresis
-Code to replicate the analyses presented in the manuscript Tanaka &amp; Portugues (2025) Algorithmic dissection of optic flow memory in larval zebrafish.
+# Algorithmic Dissection of Optic Flow Memory in Larval Zebrafish
+This respository host the code (jupyter notebooks) to analyze the data for / recreate the figures presented in Tanaka & Portugues (2025) Algorithmic dissection of optic flow memory in larval zebrafish [(preprint)](Algorithmic dissection of optic flow memory in larval zebrafish).
