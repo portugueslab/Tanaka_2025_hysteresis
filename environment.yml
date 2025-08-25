@@ -1,0 +1,16 @@
+name: ofmemory
+
+channels:
+  - conda-forge
+  - anaconda
+  - defaults
+
+dependencies:
+  - python=3.10.6
+  - pandas=1.5.0
+  - matplotlib=3.6.0
+  - colorcet=3.0.1
+  - scikit-learn=1.1.2
+  - tifffile=2022.8.12
+  - ipykernel
+  - pip
