@@ -4,6 +4,10 @@ This respository will host the code (jupyter notebooks) to analyze the data for 
 ## Dataset
 The dataset to be analyzed by this repository will be uploaded to Zenodo (doi: 10.5281/zenodo.16085585) (in preparation). 
 
+The dataset containts raw behavioral as well as preprocessed imaging data.
+
+Data are arranged in directories corresponding to each notebook file. Put unpacked data directories under the `data` folder in the repository.
+
 ## Environment
 We recommend you use anaconda to manage the environment to run the notebooks.
 The notebooks on this repository depends on following packages:
@@ -25,4 +29,5 @@ Please create an anaconda environment using the yml file provided `conda env cre
 
 Enter the newly created conda environment, and run `python -m ipykernel install --user --name=ofmemory` to register it to the jupyter lab. 
 
-
+## Output
+The notebooks save the figures as SVG (in the `svgs` folder), as they appear in paper figures (with the exact sizes), which is why they appear small on the screen.
