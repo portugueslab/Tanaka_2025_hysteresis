@@ -28,7 +28,7 @@ The notebooks on this repository depends on following packages:
 - `scipy=1.9.1`
 - `tqdm=4.64.1`
 
-Please create an anaconda environment using the yml file provided `conda env create -f environment.yml` (named `ofmemory`). This yml file does not include packages installed through `pip` as including these made resolving dependency impossibly slow. Please install following packages through pip: `pip install numpy==1.22.4 bouter==0.2.0 scipy==1.9.1 tqdm==4.64.1 flammkuchen==1.0.2 napari==0.4.19rc5`. There will be some dependency issues regarding `numpy` and some packages, but this is for some un-used functions and should be fine.
+Please create an anaconda environment using the yml file provided `conda env create -f environment.yml` (named `ofmemory`). Solving dependency could take 10+ minutes. Alternatively, you might simply install packages one by one manually, which could be faster.
 
 Enter the newly created conda environment, and run `python -m ipykernel install --user --name=ofmemory` to register it to the jupyter lab. 
 
