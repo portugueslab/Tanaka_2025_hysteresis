@@ -206,7 +206,7 @@ def fit_logistic(BTA, kernel_duration, kernel_resolution, p0=(1,1,1)):
         popt = (np.nan, np.nan, np.nan)
     return popt[0], popt[1], popt[2], t_vec
 
-def cut_triggered_snip(data, t, triggers, n_sample_pre, n_sample_post):
+def cut_triggered_snip(data, t, triggers, n_sample_pre, n_sample_post, verbose=False):
     '''
     Given time series data, time axis, and a list of time points, cut out
     snippets around the provided time points
@@ -220,7 +220,8 @@ def cut_triggered_snip(data, t, triggers, n_sample_pre, n_sample_post):
         try:
             snips.append(data[:, trigger_ind + np.arange(-n_sample_pre, n_sample_post)])
         except:
-            print('too close to the end of experiment')
+            if verbose:
+                print('dropping an event at t=',this,'too close to the end of experiment')
     return np.dstack(snips)
 
 def draw_reference(ax, x=0, y=0):
