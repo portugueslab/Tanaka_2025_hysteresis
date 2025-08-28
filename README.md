@@ -9,7 +9,7 @@ This respository hosts the code (jupyter notebooks) to recreate the figures pres
 - `environment.yml`: This file specifies the anaconda environment needed to run the notebooks.
 
 ## Dataset
-The dataset to be analyzed by this repository will be uploaded to Zenodo (doi: 10.5281/zenodo.16085585) (in preparation). 
+The dataset to be analyzed by this repository is hosted on [Zenodo (doi: 10.5281/zenodo.16085585)](https://zenodo.org/records/16085585). 
 
 The dataset containts raw behavioral as well as preprocessed imaging data.
 

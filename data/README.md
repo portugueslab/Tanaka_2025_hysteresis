@@ -1,6 +1,6 @@
 # Data 
 
-Please download data from Zenodo (doi: 10.5281/zenodo.16085585).
+Please download data from [Zenodo (doi: 10.5281/zenodo.16085585)](https://zenodo.org/records/16085585).
 
 Unzip each folder (e.g., `fig1`, `fig2`) and put them directly under this data directory.
 
